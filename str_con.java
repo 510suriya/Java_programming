@@ -6,7 +6,7 @@ public class Concat{
         Scanner s=new Scanner(System.in);
         String str1=s.next();
         String str2=s.next();
-        System.out.println(str1+ " " + str2);
+        System.out.println(str1+""+ str2);
      }
      
 }
