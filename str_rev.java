@@ -3,7 +3,6 @@ public class Revstr
 {
     public static void main(String[] args)
     {
-        System.out.println("Enter string to reverse:");
         Scanner s= new Scanner(System.in);
         String str = s.nextLine();
         String reverse = "";
