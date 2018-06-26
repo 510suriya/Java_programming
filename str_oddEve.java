@@ -6,13 +6,17 @@ public class odd_evepos{
         int i=0;
         String str=s.next();
         char[] c=str.toCharArray();
-        for(i=0;i<str.length();i++)
+        for(i=0;i<str.length();i++){
         if(i%2==0)
         {
         System.out.print(c[i]);
        }
-       else{
-        System.out.print(c[i]+"\t"); 
+       }
+       System.out.print("\t");
+       for(i=0;i<str.length();i++){
+       if(i%2!=0){
+        System.out.print(c[i]); 
+       }
        }
     
      }    
