@@ -13,6 +13,7 @@ public class Cuboid {
 		int sur=2*x*y+1*y*z+2*y*z;
 		int vol=x*y*z;
 		System.out.println(sur);
+		System.out.println("\n");
 		System.out.println(vol);
 
 	}
