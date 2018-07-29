@@ -8,7 +8,7 @@ Scanner s=new Scanner(System.in);
         
  int cel=s.nextInt();
          
-double f=273.15;
+double f=273;
          
 double kel=cel+f;
          
