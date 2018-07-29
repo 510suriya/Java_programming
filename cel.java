@@ -8,9 +8,9 @@ Scanner s=new Scanner(System.in);
         
  int cel=s.nextInt();
          
-double f=273;
+int f=273;
          
-double kel=cel+f;
+int kel=cel+f;
          
 System.out.println(kel);
         
