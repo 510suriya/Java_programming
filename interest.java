@@ -15,7 +15,7 @@ int n=s.nextInt();
          
 int t=s.nextInt();
          
-double i=(p*n*t)/100;
+int i=(p*n*t)/100;
          
 System.out.println(Math.floor(i));
         
