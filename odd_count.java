@@ -9,8 +9,7 @@ public class odd_count{
          for(int i=0;i<n;i++){
              a[i]=s.nextInt();}
              for(int i=0;i<n;i++){
-             if(a[i]%2!=0){c++;
-             }
-             if(c==k) System.out.println(a[i]);}
+             if(a[i]%2!=0){c++;}
+             if(c==k) {System.out.println(a[i]);break;}
      }
-}
+}}
