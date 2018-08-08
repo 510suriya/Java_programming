@@ -5,7 +5,7 @@ public class num_two{
          Scanner s=new Scanner(System.in);
          int n=s.nextInt();
          int n1,rem;
-         while(n!=1){
+         while(n>0){
              rem=n%2;
              n1=n/2;
              System.out.print(n1);
